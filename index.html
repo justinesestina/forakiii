@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300;400;700&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.5.3/lottie_svg.min.js"></script>
+    <title>FORAKIE</title>
+    <link rel="icon" href="icons/tab-icon.png"/>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body style="font-family: 'Comic Neue';" class="relative">
+    
+
+    <!-- MUSIC PLAYER -->
+    <div class="fixed left-6 bottom-6 z-10">
+        <div class="music-container relative bg-neutral-100 py-3 px-3 border-2 z-10 rounded-md border-black flex items-center">
+            <div class="toggle-player bg-neutral-100 border-2 border-black">
+                <img class="w-full" src="icons/close.svg" alt="">
+            </div>
+            <div class="avatar absolute w-14">
+                <img class="w-full border-2 bg-white border-black rounded-md" src="icons/pinkheart.svg" alt="">
+            </div>
+            <div class="player">
+                <div class="sound-bars-lottie">
+                    <div class="sound-bars"></div>
+                </div>
+                <div class="track-info -space-y-1">
+                    <div class="trackname">Only</div>
+                    <div class="trackartist">Track Artist</div>
+                </div>
+                <div class="track-nav">
+                    <div class="prev-track">
+                        <img class="w-7" src="icons/backplayer.svg" alt="">
+                    </div>
+                    <div class="playpause-track">
+                        <img class="w-8" src="icons/play.svg" alt="">
+                    </div>
+                    <div class="next-track">
+                        <img class="w-7" style="transform: rotate(180deg);" src="icons/backplayer.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- BACKGROUND -->
+    <div class="background">
+        <div class="one">
+            <img src="img/back.jpg" alt="">
+            <div class="container">
+                <div class="envelope-wrapper">
+                    <div class="envelope">
+                        <div class="letter">
+                            <div class="text">
+                                <strong style="font-size: .89rem;">My Love,</strong>
+                                <p style="text-indent: 15px; margin: 20px 0;">
+                                    Hi, baby. Happy monthsary to us!🤍
+                                </p>
+                                <p style="text-indent: 15px; margin: 20px 0;">
+                                    First of all, love, thank you so much for that aesthetic appreciation letter last night. Ramdam ko yung sincerity sa bawat words na nandun. I also want to express my gratitude for the effort you put into creating that website for the letter. I know it wasn’t easy, but you did it for me, and that makes me so happy :> You always make me feel loved, supported, and appreciated in ways that only you can. I’m endlessly grateful to have someone as amazing as you by my side.
+                                </p>
+                                <p style="text-indent: 15px; margin: 20px 0;">
+                                    I know you’re always proud of what I do, but let me tell you this. I’m just as proud of you, if not more. Every milestone you achieve, every struggle you overcome, all of it fills me with so much admiration for you. Alam ko na hindi madali yung mga challenges na kinakaharap mo, like your exams, activities, and everything else, pero palagi kang nagpapatuloy. You push yourself to grow, and that inspires me to do the same. Your strength gives me strength, mahal.
+                                </p>
+                                <p style="text-indent: 15px; margin: 20px 0;">
+                                    In the next challenges that life throws at us, I hope you know I’ll be here by your side, ready to face them with you. Gusto ko lang ipaalala sayo na hindi ka nag-iisa, okay? We’ll face everything together, and I’ll be right here, reminding you that you’re not alone. Sana mas tumatag pa tayo individually and as partners, as we go through whatever life has in store for us.
+                                </p>
+                                <p style="text-indent: 15px; margin: 20px 0;">
+                                    I promise you, I’m not going anywhere. Every day, I’m choosing you. Hindi lang 'to dahil mahal kita, but because I believe in us and in the life we’re building together. Kahit gaano pa kahirap ang mga pagsubok, alam ko na kakayanin natin basta magkasama tayo, tama po diba?
+                                </p>
+                                <p style="text-indent: 15px; margin: 20px 0;">
+                                    At gusto kong malaman mo na habang nagpapakasipag ka sa sarili mong mga goals, patuloy din akong nagwo-work hard para sa atin. I’m doing my best in my studies not just for me, but for us. Balang araw, all of our dreams for this relationship everything we’ve imagined together will come true. Our future is something I look forward to every single day, and I want to make sure na magiging proud ka rin sa lahat ng ginagawa ko hindi lang para sa sarili ko pati na rin sa relationship natin.
+                                </p>
+                                <p style="text-indent: 15px; margin: 20px 0;">
+                                    So, yun lang po, love. Here’s to our 10 months, and to all the months and years that lie ahead. Thank you for being my strength, my partner, and my greatest supporter. Mahal na mahal kita, love. At sa bawat araw, pinipili kita. More memories, more dreams, and a lifetime of love and commitment. Happy monthsary, my love! Here’s to forever, ikaw lang!🤍
+                                </p>
+                                <p class="love" style="margin-top: 20px;">I LOVE YOU SO MUCH</p>
+                                <div class="pana">
+                                   
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="heart"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    <!-- FIRST CARD -->
+    <div class="w-full h-[100vh] z-0 relative">
+        <!-- BACKGROUND -->
+
+        <!-- FIRST PAGE -->
+        <div class="absolute top-0 h-full flex items-center justify-center flex-col w-full">
+            <!-- FIRST CARD -->
+            <div id="window" class="bg-neutral-100 relative shadow-md hover:shadow-xl duration-150 hover:scale-105 rounded-md w-[34rem] flex justify-center flex-col border-2 border-black">
+                 <!-- GIFS -->
+                <div id="gif" class="absolute -top-20 -left-60">
+                    <img class="w-full -rotate-12" src="https://media.tenor.com/sAjbIdSHL_EAAAAi/cute-cat.gif" alt="">
+                </div>
+                <div id="gif" class="absolute -bottom-20 -left-60">
+                    <img class="w-full rotate-12" src="https://media.tenor.com/CrlCvvTwSd8AAAAi/peachcat-cat.gif" alt="">
+                </div>
+                <div id="gif" class="absolute -top-20 -right-60">
+                    <img class="w-full rotate-3" src="https://media.tenor.com/ZQ7fGn4s3YwAAAAi/peach-goma-paw-paw.gif" alt="">
+                </div>
+                <div id="gif" class="absolute -bottom-20 -right-60">
+                    <img class="w-full -rotate-12" src="https://media.tenor.com/Hkh0USs2v5EAAAAi/love-you-roar.gif" alt="">
+                </div>
+                <div class="flex items-center px-1 py-1 justify-between w-full border-b-2 border-black">
+                    <div>
+                        <img class="w-5" src="icons/back.svg" alt="">
+                    </div>
+                    <div>
+                        <h1 class="font-extrabold text-lg">SAI</h1>
+                    </div>
+                    <div>
+                        <img class="w-6" src="icons/x.svg">
+                    </div>
+                </div>
+                <div class="relative border-b-2 border-black">
+                    <div class="absolute bottom-2 left-12 w-14">
+                        <img class="rotate-12 w-full" src="icons/fingerheart.png" alt="">
+                    </div>
+                    <div class="absolute top-3 right-3 w-12">
+                        <img class="rotate-12 w-full" src="icons/dog.svg" alt="">
+                    </div>
+                    <div class="absolute bottom-2 right-14 w-11">
+                        <img class="-rotate-12 w-full" src="icons/herheart.svg" alt="">
+                    </div>
+                    <div class="absolute top-3 left-3 w-10">
+                        <img class="-rotate-12 w-full" src="icons/herbleh.svg" alt="">
+                    </div>
+                    <div class="text-center py-5">
+                        <h1 class="font-extrabold text-5xl">About SAI</h1>
+                        <p class="text-base">CUTE/SMART/PRETTY/p>
+                    </div>
+                </div>
+                <!-- IMAGES -->
+                <div class="flex justify-center">
+                    <div class="w-44 flex justify-center py-5 gap-3">
+                        <img class="w-40" src="img/Bebita/1.jpeg" alt="">
+                        <img class="w-40" src="img/Bebita/2.jpeg" alt="">
+                        <img class="w-40" src="img/Bebita/3.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>  
+    </div>
+    <!-- SECOND CARD -->
+    <div class="w-full h-[100vh] z-0 relative ">
+        <!-- BACKGROUND -->
+    
+        <!-- SECOND PAGE -->
+        <div class="absolute top-0 h-full flex items-center justify-center flex-col w-full">
+            <!-- SECOND CARD -->
+            <div id="window" class="bg-neutral-100 relative shadow-md hover:shadow-xl duration-150 hover:scale-105 rounded-md w-[34rem] flex justify-center flex-col border-2 border-black">
+                <!-- GIFS -->
+                <div id="gif" class="absolute -top-20 -left-60 w-40">
+                    <img class="w-full -rotate-6" src="https://media.tenor.com/UTmQNO88ls8AAAAi/cat-love.gif" alt="">
+                </div>
+                <div id="gif" class="absolute -bottom-20 -left-64 w-44">
+                    <img class="w-full -rotate-6" src="https://media.tenor.com/L8aXIRjgg1IAAAAi/mocha-sebusun.gif" alt="">
+                </div>
+                <div id="gif" class="absolute -top-20 -right-64 w-44">
+                    <img class="w-full rotate-6" src="https://media.tenor.com/zFK_JGH_XhwAAAAi/peachcat-cat.gif" alt="">
+                </div>
+                <div id="gif" class="absolute -bottom-20 -right-64 w-40">
+                    <img class="w-full rotate-6" src="https://media.tenor.com/_mYZWyrW3AUAAAAi/peach-goma-pc-night-keyboard-smashing.gif" alt="">
+                </div>
+                <div class="flex items-center px-1 py-1 justify-between w-full border-b-2 border-black">
+                    <div>
+                        <img class="w-5" src="icons/back.svg" alt="">
+                    </div>
+                    <div>
+                        <h1 class="font-extrabold text-lg">TINY</h1>
+                    </div>
+                    <div>
+                        <img class="w-6" src="icons/x.svg" alt="">
+                    </div>
+                </div>
+                <div class="relative border-b-2 border-black">
+                    <div class="absolute bottom-3 left-12 w-11">
+                        <img class="rotate-12 w-full" src="icons/gaming.svg" alt="">
+                    </div>
+                    <div class="absolute top-3 right-3 w-12">
+                        <img class="rotate-12 w-full" src="icons/cat.svg" alt="">
+                    </div>
+                    <div class="absolute bottom-2 right-14 w-12">
+                        <img class="-rotate-12 w-full" src="icons/cool.svg" alt="">
+                    </div>
+                    <div class="absolute top-3 left-3 w-10">
+                        <img class="-rotate-12 w-full" src="icons/hisbleh.svg" alt="">
+                    </div>
+                    <div class="text-center py-5">
+                        <h1 class="font-extrabold text-5xl">About TINY</h1>
+                        <p class="text-base">POGI LANG</p>
+                    </div>
+                </div>
+                <!-- IMAGES -->
+                <div class="flex justify-center">
+                    <div class="w-44 flex justify-center py-5 gap-3">
+                        <img class="w-40" src="img/Bebita/1.1.jpeg" alt="">
+                        <img class="w-40 object-cover" src="img/Bebita/5.jpg" alt="">
+                        <img class="w-40 object-cover" src="img/Bebita/2.2.jpeg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>  
+    </div>
+    <!-- FOURTH -->
+    <div class="w-full h-[100vh] z-0 relative">
+        <!-- BACKGROUND -->
+        <img class="w-full h-full object-cover" src="img/back.jpg" alt="">
+        <div class="absolute top-0 w-full h-full flex justify-center items-center">
+            <!-- COUNTER -->
+            <div class="flex bg-neutral-100 gap-5 relative border-2 z-10 border-black flex-col px-5 pb-3 shadow-md pt-9 rounded-md">
+                <!-- GIFS -->
+                <div class="absolute top-1 right-1 w-7">
+                    <img class="w-full" src="icons/heart.svg" alt="">
+                </div>
+                <div class="absolute -top-20 -left-56 w-44">
+                    <img class="w-full -rotate-6" src="https://media.tenor.com/dg7Th23TzFUAAAAi/cat_-vodk.gif" alt="">
+                </div>
+                <div class="absolute -bottom-3 -right-52 w-44">
+                    <img class="w-full" src="https://media.tenor.com/LrSL7XDKVbgAAAAi/peachcat-cat.gif" alt="">
+                </div>
+                <div class="absolute top-[-8rem] z-0 right-28 w-36">
+                    <img class="w-full" src="https://media.tenor.com/JL0YrycH2gkAAAAi/peach-goma-crate-orange.gif" alt="">
+                </div>
+                <div class="absolute -bottom-48 z-0 left-16 w-40">
+                    <img class="w-full" src="https://media.tenor.com/Qq1hnouswVwAAAAi/peach-cat-dancing.gif" alt="">
+                </div>
+
+                <!-- DATE COUNTER -->
+                <div class="flex gap-5" id="myCountdown">
+                    <div class="bg-transparent border-2 border-black rounded-md w-40 h-52 flex justify-center items-center flex-col gap-10">
+                        <h1 id="years" class="text-6xl font-bold">10000</h1>
+                        <p class="font-bold text-xl text-red-700">Year</p>
+                    </div>
+                    <div class="bg-transparent border-2 border-black rounded-md w-40 h-52 flex justify-center items-center flex-col gap-10">
+                        <h1 id="months" class="text-6xl font-bold">09</h1>
+                        <p class="font-bold text-xl text-red-700">Months</p>
+                    </div>
+                    <div class="bg-transparent border-2 border-black rounded-md w-40 h-52 flex justify-center items-center flex-col gap-10">
+                        <h1 id="days" class="text-6xl font-bold">0</h1>
+                        <p class="font-bold text-xl text-red-700">Days</p>
+                    </div>
+                 
+                </div>
+                <h1 class="text-center font-bold text-base">Since Jan 1, 2024</h1>
+            </div>
+
+
+        </div>
+    </div>
+    <script>
+        const envelope = document.querySelector('.envelope-wrapper');
+        envelope.addEventListener('click', () => {
+            envelope.classList.toggle('flap');
+            envelope.classList.toggle('open');
+        });
+    </script>
+    
+    <script src="app.js"></script> 
+</body>
+</html>
+
